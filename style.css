@@ -1,0 +1,414 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utility  */
+
+:root{
+    --pink:rgb(230,46,102);
+}
+
+
+.i-b{
+
+    display: inline-block;
+  
+}
+
+/* Styling of Header */
+
+
+nav{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom,rgb(221, 221, 221),white);
+    height: 80px;
+    position: relative;
+    color: black;
+}
+
+nav a{
+
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 2rem;
+    color: black;
+}
+
+nav h1{
+
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+/* Styling of Banner */
+
+.Banner{
+
+    height: 687px;
+    background-image: url(./assets/ggg.jpg);
+    background-size: cover;
+}
+
+.Banner-boxes{
+
+    width: 720px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.outer-box{
+
+    width: 716px;
+    height: 333px;
+    background: linear-gradient(to top, rgb(174, 187, 196), rgb(255, 232, 232));
+    border-radius: 20px;
+}
+
+.inner-box{
+
+    width: 538px;
+    height: 330px;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
+    left: 85px;
+    top: 80px;
+    text-align: center;
+    padding: 30px;
+}
+
+.inner-box h1{
+
+    font-size: 4.5rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: none;
+    margin: 20px 1px 0;
+    color: rgb(230,46,102);
+}
+
+.inner-box p{
+
+    font-size: 1.125rem;
+    letter-spacing: normal;
+    margin: 19px 1px 0;
+}
+
+
+/* Styling of Main */
+.Main{
+
+    /* height: 2000px; */
+    background-image: linear-gradient(#fde8ee, #b2c8f3);
+}
+
+.container{
+
+    margin-inline: 100px;
+    /* background-color: orange; */
+}
+
+.left{
+
+    width: 35%;
+    /* height: 1000px; */
+    /* padding-bottom: 200px; */
+    /* background-color: rgb(119, 221, 2); */
+    margin-right: 30px;
+}
+
+.left-content{
+    /* background-color: yellow;
+    width: 300px;
+    height: 300px; */
+    position: relative;
+    bottom: 220px;
+}
+
+.left h1{
+
+    font-size: 3rem;
+    color: var(--pink);
+    margin-block: 50px;
+}
+
+.left p{
+
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 2.5rem;
+}
+
+.left button{
+
+    background-color: var(--pink);
+    padding: 15px 30px;
+    margin-top: 40px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    border-radius: 50px;
+}
+
+.right{
+
+    /* background: rgb(99, 192, 253); */
+    /* height: 1000px; */
+    width: 60%;
+    padding-left: 130px;
+    padding-top: 70px;
+ 
+}
+
+.right-content{
+
+
+    margin: auto;
+    width: 600px;
+    /* background-color: rgb(141, 141, 141); */
+}
+
+.box{
+
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* Row-1 */
+
+.box-1-r1{
+
+    width: 270px;
+    height: 450px;
+    padding: 30px 25px;
+}
+
+.box-2-r1{
+
+     width: 270px;
+    height: 390px;
+    padding: 30px 25px; 
+    /* position: relative;
+    bottom: 65px; */
+}
+
+/* Row-2 */
+
+.box-1-r2{
+
+    width: 270px;
+    height: 390px;
+    padding: 30px 25px;
+}
+
+.box-2-r2{
+
+    width: 270px;
+    height: 450px;
+    padding: 30px 25px;
+    position: relative;
+    bottom: 60px;
+}
+
+.box-content{
+
+    text-align: center;
+}
+
+.circle{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #86a4e6;
+    font-size: 2rem;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.box-button button{
+
+    background-color: var(--pink);
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 15px;
+    margin-block: 20px;
+
+}
+
+.box-content h2{
+
+    /* font-size: 1.62rem; */
+    font-weight: lighter;
+    color: #0697f8;
+}
+
+.box-content p{
+
+    font-style: italic;
+    color: #525252;
+    line-height: 20px;
+    margin-block: 20px;
+}
+
+.more{
+
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    color: rgb(53, 52, 52);
+    border-bottom: 1px solid rgb(35, 122, 252);
+}
+
+.hover:hover{
+
+    background: none;
+    border: 1.5px solid var(--pink);
+    color: var(--pink);
+}
+
+
+/* MEDIA QUERIES */
+
+/* For Tablet */
+@media  (min-width:425px) and (max-width:768px) {
+
+    .nicepage{
+
+        min-width: 768px;
+
+    }
+
+    .Main{
+
+        padding-block: 90px;
+    }
+
+    .left{
+
+        display: block;
+        width: 100%;
+
+    }
+
+    .left-content{
+
+        position: static;
+
+    }
+
+    .left-content h1{
+
+        margin-top: 0;
+
+    }
+
+    .right{
+
+        display: block;
+        width: 100%;
+        padding: 0;
+        padding-top: 80px;
+
+    }
+
+    .right-content{
+        
+        width: 100%;
+
+    }
+
+    .container{
+
+        margin-inline: 50px;
+    }
+
+    .box{
+
+        width: 46%;
+    }
+    
+}
+
+/* For Mobile */
+@media (max-width:425px) {
+
+    
+    .nicepage{
+
+        min-width: 768px;
+
+    }
+
+    .Main{
+
+        padding-block: 90px;
+    }
+
+    
+    .left{
+
+        display: block;
+        width: 100%;
+
+    }
+
+    
+    .left-content{
+
+        position: static;
+
+    }
+
+    .left-content h1{
+
+        margin-top: 0;
+
+    }
+
+    .right{
+
+        display: block;
+        width: 100%;
+        padding: 0;
+        padding-top: 80px;
+
+    }
+
+    .right-content{
+        
+        width: 100%;
+
+    }
+
+    .box{
+
+        width: 100%;
+    }
+
+    .container{
+
+        margin-inline: 100px;
+    }
+
+    .box-2-r2{
+        
+        position: relative;
+        top: 0px;
+
+    }
+
+
+    
+}
